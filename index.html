@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Responsive Navbar</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css files/style.css">
+        <link rel="stylesheet" href="/css files/slick.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+
+    <section class="background">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><img src="/images/logo.png" alt=""></label>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        </nav>
+        <div class="wrapper1">
+            <div class="text-area1">
+                <span>t</span>
+                <span>h</span>
+                <span>e</span>&nbsp;
+                <span>b</span>
+                <span>e</span>
+                <span>s</span>
+                <span>t</span>&nbsp;
+                <span>t</span>
+                <span>h</span>
+                <span>e</span>
+                <span>m</span>
+                <span>e</span>&nbsp;
+                <span>f</span>
+                <span>o</span>
+                <span>r</span>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="text-area">
+                <span>e</span>
+                <span>d</span>
+                <span>u</span>
+                <span>c</span>
+                <span>a</span>
+                <span>t</span>
+                <span>i</span>
+                <span>o</span>
+                <span>n</span>
+            </div>
+        </div>
+        <button class="btn-buy-now">Buy Now</button>
+    </section>
+    <section>
+        <div class="box-main">
+            <div class="box-sm">
+                <span><img src="/images/logo-top-1.png" class="box-sm-img" alt=""></span>
+                <span class="box-sm-heading">BEST INDUSTRY LEADERS<br>
+                    <button class="view-more">View More <i class="fa fa-chevron-right"></i></button>
+                </span>
+            </div>
+            <div class="box-sm">
+                <span><img src="/images/logo-top-2.png" class="box-sm-img" alt=""></span>
+                <span class="box-sm-heading">LEARN COURSES ONLINES<br>
+                    <button class="view-more">View More <i class="fa fa-chevron-right"></i></button>
+                </span>
+            </div>
+            <div class="box-sm">
+                <span><img src="/images/logo-top-3.png" class="box-sm-img" alt=""></span>
+                <span class="box-sm-heading">BOOK LIBRARY & STORE<br>
+                    <button class="view-more">View More <i class="fa fa-chevron-right"></i></button>
+                </span>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="main-heading">
+            <h2>POPULAR COURSES</h2>
+        </div>
+    </section>
+    <!--Carousel Wrapper-->
+    <div id="multi-item-example" class="carousel slide carousel-multi-item mt-5 " data-ride="carousel">
+
+        <!--Controls-->
+        <div class="controls-top ml-3 mb-3">
+            <a class="btn-floating" href="#multi-item-example" data-slide="prev"><button type="button" class="btn btn-outline-warning"><i class="fas fa-chevron-left"></i></button></a>
+            <a class="btn-floating" href="#multi-item-example" data-slide="next"><button type="button" class="btn btn-outline-warning"><i
+                class="fas fa-chevron-right"></i></button></a>
+        </div>
+        <!--/.Controls-->
+
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+            <li data-target="#multi-item-example" data-slide-to="1"></li>
+
+        </ol>
+        <!--/.Indicators-->
+
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+            <!--First slide-->
+            <div class="carousel-item active">
+
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top"
+                            src="/images/course-4.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <span class="small-img"><img src="/images/small-img.jpg" alt=""></span>
+                            <h4 class="card-title">Keny White</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                                <button type="button" class="btn btn-outline-success"><a href="" class="text-dark">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+            <!--/.First slide-->
+
+            <!-- Second slide -->
+            <div class="carousel-item">
+
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top"
+                            src="/images/course-1.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                           <span class="small-img"><img src="/images/small-img.jpg" alt=""></span>
+                            <h4 class="card-title">Keny White</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <button type="button" class="btn btn-outline-success"><a href="" class="text-dark">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+            <!--/.Second slide-->
+            <!-- Third slide -->
+            <div class="carousel-item">
+
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top"
+                            src="/images/course-12.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <span class="small-img"><img src="/images/small-img.jpg" alt=""></span>
+                            <h4 class="card-title">Keny White</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                                <button type="button" class="btn btn-outline-success"><a href="" class="text-dark">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+            <!--/.Third slide-->
+            <!-- Fourth slide -->
+            <div class="carousel-item">
+
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top"
+                            src="/images/course-16.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <span class="small-img"><img src="/images/small-img.jpg" alt=""></span>
+                            <h4 class="card-title">Keny White</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                                <button type="button" class="btn btn-outline-success"><a href="" class="text-dark">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+            <!--/.Fourth slide-->
+            <!-- Fifth slide -->
+            <div class="carousel-item">
+
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top"
+                            src="/images/course-5.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <span class="small-img"><img src="/images/small-img.jpg" alt=""></span>
+                            <h4 class="card-title">Keny White</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                                <button type="button" class="btn btn-outline-success"><a href="" class="text-dark">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+            <!--/.Fifth slide-->
+            <!-- Sixth slide -->
+            <div class="carousel-item">
+
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top"
+                            src="/images/course-9.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <span class="small-img"><img src="/images/small-img.jpg" alt=""></span>
+                            <h4 class="card-title">Keny White</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                                <button type="button" class="btn btn-outline-success"><a href="" class="text-dark ">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+            <!--/.Sixth slide-->
+
+
+
+        </div>
+        <!--/.Slides-->
+
+    </div>
+    <!--/.Carousel Wrapper-->
+
+    <button type="button" class="btn btn-dark Read-More-Button">Read More</button>
+
+<!-- Conatct Form -->
+<section class="background-2">
+    <div class="contact">
+        <h1 class="text-light ">Contact Us</h1>
+    </div>
+    <form>
+        <div class="form-row">
+          <div class="form-group col-md-6 mx-5 text-light" >
+            <label for="inputName">Name</label>
+            <input type="text" placeholder="Your Name*" class="form-control" id="inputname" required>
+          </div>
+          <div class="form-group col-md-6 mx-5 text-light">
+            <label for="inputEmail">E-Mail</label>
+            <input type="email" placeholder="E-Mail*" class="form-control" id="inputEmail" required>
+          </div>
+          <div class="form-group col-md-6 mx-5 text-light">
+            <label for="inputPhoneNo">Phone No.</label>
+            <input type="number" placeholder="Phone No*" class="form-control" id="inputEmail" required>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary Special-Button w-75 mx-5 my-4">Submit</button>
+        
+      </form>
+    
+</section>
+
+<!-- Milestone Section -->
+<section>
+    <div class="main-heading-2">
+        <h2>Milestones</h2>
+        <p>Milestones achieved by our teams.</p>
+    </div>
+    <div class="card my-5" >
+        <img src="/images/event-2-450x233.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div>
+    <div class="card my-5" >
+        <img src="/images/event-4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div>
+    <button type="button" class="btn btn-outline-dark ml-4">View All</button>
+</section>
+<!-- Section: Testimonials -->
+<section class="text-center my-5">
+
+    <!-- Section heading -->
+    <h2 class="h1-responsive font-weight-bold my-5">What People Say</h2>
+  
+    <div class="wrapper-carousel-fix">
+      <!-- Carousel Wrapper -->
+      <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade" data-ride="carousel"
+        data-interval="false">
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+          <!--First slide-->
+          <div class="carousel-item active">
+            <div class="testimonial">
+              <!--Avatar-->
+              <div class="avatar mx-auto mb-4">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg" class="rounded-circle img-fluid"
+                  alt="First sample avatar image">
+              </div>
+              <!--Content-->
+              <p>
+                <i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+                eos
+                id officiis hic tenetur quae quaerat ad velit ab. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Dolore cum accusamus eveniet molestias voluptatum inventore laboriosam labore
+                sit, aspernatur praesentium iste impedit quidem dolor veniam.
+              </p>
+              <h4 class="font-weight-bold">Anna Deynah</h4>
+              <h6 class="font-weight-bold my-3">Lorem ipsum dolor sit.</h6>
+              <!--Review-->
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star-half-alt blue-text"> </i>
+            </div>
+          </div>
+          <!--First slide-->
+          <!--Second slide-->
+          <div class="carousel-item">
+            <div class="testimonial">
+              <!--Avatar-->
+              <div class="avatar mx-auto mb-4">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" class="rounded-circle img-fluid"
+                  alt="Second sample avatar image">
+              </div>
+              <!--Content-->
+              <p>
+                <i class="fas fa-quote-left"></i> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                odit
+                aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+                non numquam eius modi tempora incidunt ut labore. </p>
+              <h4 class="font-weight-bold">Maria Kate</h4>
+              <h6 class="font-weight-bold my-3">Lorem ipsum dolor sit.</h6>
+              <!--Review-->
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+            </div>
+          </div>
+          <!--Second slide-->
+          <!--Third slide-->
+          <div class="carousel-item">
+            <div class="testimonial">
+              <!--Avatar-->
+              <div class="avatar mx-auto mb-4">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" class="rounded-circle img-fluid"
+                  alt="Third sample avatar image">
+              </div>
+              <!--Content-->
+              <p>
+                <i class="fas fa-quote-left"></i> Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+                error sit voluptatem accusantium doloremque laudantium.</p>
+              <h4 class="font-weight-bold">John Doe</h4>
+              <h6 class="font-weight-bold my-3">Lorem ipsum dolor sit.</h6>
+              <!--Review-->
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+              <i class="far fa-star blue-text"> </i>
+            </div>
+          </div>
+          <!--Third slide-->
+        </div>
+        <!--Slides-->
+ 
+        <!--Controls-->
+        <div class="controls-top mt-5 mb-3 ">
+            <a class="btn-floating" href="#carousel-example-1" data-slide="prev"><button type="button" class="btn btn-outline-warning mr-5"><i class="fas fa-chevron-left"></i></button></a>
+            <a class="btn-floating" href="#carousel-example-1" data-slide="next"><button type="button" class="btn btn-outline-warning"><i
+                class="fas fa-chevron-right"></i></button></a>
+        </div>
+        <!--/.Controls-->
+      </div>
+      <!-- Carousel Wrapper -->
+    </div>
+  
+  </section>
+  <!-- Section: Testimonials -->
+<!-- Footer Section -->
+<section class="bg-dark">
+<div >
+    <img src="/images/logo.png" class="mt-5 ml-4" alt="">
+    <div class="text-light">
+        <i class="fa fa-phone mx-4 mt-5 " aria-hidden="true" ></i>
+        <span class="phone-no">987654321</span>
+    </div>
+    <div class="text-light">
+        <i class="fa fa-envelope mx-4 mt-3" aria-hidden="true" ></i>
+        <span class="phone-no">987654321</span>
+    </div>
+</div>
+<p class="text-light text-center watermark mt-4">EDUCATION THEME MADE BY ARTECH DEVELOPERS.</p>
+</section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
