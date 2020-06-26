@@ -321,6 +321,7 @@ margin: 5% 20%;
     background-size: cover;
     /* height: 80vh; */
     object-fit: cover;
+    background-attachment: fixed;
   }
 
   .main-heading-2{
