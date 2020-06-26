@@ -389,19 +389,23 @@ margin: 5% 20%;
         font-size: 25px;
     }
     .wrapper{
-        top: 85%;
+        top:95%;
     }
     .wrapper1{
-        top: 94%;
+        top: 100%;
         }
     .btn-buy-now{
-        padding: 4px 20px;
+        padding: 7px 25px;
         font-size: 17px;
         background-color: #edac10;
         border: 0;
         position: absolute;
-        top: 90%;
+        top: 100%;
         left: 3%;
         cursor: pointer;
+    }
+
+    .background{
+        height: 125vh;
     }
 }
