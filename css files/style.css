@@ -359,6 +359,68 @@ margin: 5% 20%;
     }
 }
 
+
+
+
+
+/* CONTACT FORM CSS */
+.background-contact-form{
+    background:  rgba(0, 0, 0, 0.5) url(bg-contact-form.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    object-fit: cover;
+}
+.contact-heading{
+    font-family: 'PT Serif', serif;
+    margin-top: 30%;
+}
+.contact-form-heading{
+    font-family: 'PT Serif', serif;
+}
+.contact-heading::after {
+
+    content:'';
+    width: 4px;
+    color: #ffb606;
+    position:absolute;
+    height:47px;
+    left: 27px;
+    z-index: 10000;
+    background: #ffb606;
+    margin: 1% 0%;
+
+}
+.social-icon { 
+
+    text-align: center; 
+    font-size: 25px;
+    margin-left: 8%;
+   justify-content: space-evenly;
+   height: 100%;
+   /* border: 2px solid aqua; */
+   align-items: center;
+   
+    
+    }
+.social-icon i{
+        width:50px;
+        height: 50px;
+        border-radius: 50%;
+        padding-top: 1.9%;
+        background-color: #3D3C38;
+        color: white;
+        cursor: pointer;
+        font-size: 131%;
+} 
+.message-heading{
+    font-family: 'PT Serif', serif;
+}
+
+
+
+
 @media only screen and (min-width:420px) and (max-width:830px){
     nav ul{
         float: right;
@@ -373,7 +435,7 @@ margin: 5% 20%;
         color: #f2f2f2;
         font-weight: 500;
         font-size: 20px;
-        padding: 7px 13px;
+        padding: 7px 10px;
         border-radius: 3px;
         /* text-transform: uppercase; */
         font-family: 'Poppins', sans-serif;
@@ -407,5 +469,12 @@ margin: 5% 20%;
 
     .background{
         height: 125vh;
+    }
+    .background-contact-form{
+        height: 60vh;
+    }
+    .contact-heading{
+        font-family: 'PT Serif', serif;
+        margin-top: 10%;
     }
 }
