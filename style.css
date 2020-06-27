@@ -348,8 +348,8 @@ margin: 5% 20%;
 
   @media (min-width:320px){
     label.logo{
-        line-height: 100px;
-        padding: 1px 26px;
+        line-height: 80px;
+        padding: 0px 26px;
       }
     .text-area1{
         font-size: 13px;
@@ -373,11 +373,13 @@ margin: 5% 20%;
     object-fit: cover;
 }
 .contact-heading{
-    font-family: 'PT Serif', serif;
-    margin-top: 25%;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 35px;
 }
 .contact-form-heading{
-    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Slab', serif;
 }
 .contact-heading::after {
 
@@ -415,7 +417,8 @@ margin: 5% 20%;
         font-size: 131%;
 } 
 .message-heading{
-    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Slab', serif;
+  font-size:30px;
 }
 .About-Card-Heading:hover{
     color: #F4B80A;
@@ -482,7 +485,9 @@ cursor: pointer;
         height: 80vh;
     }
     .contact-heading{
-        font-family: 'PT Serif', serif;
-        margin-top: 10%;
+        font-family: 'Roboto Slab', serif;
+        padding-top: 70px;
+        padding-bottom: 50px;
+        font-size: 35px;
     }
 }
