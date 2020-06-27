@@ -417,7 +417,15 @@ margin: 5% 20%;
 .message-heading{
     font-family: 'PT Serif', serif;
 }
+.About-Card-Heading:hover{
+    color: #F4B80A;
+    cursor: pointer;
+    }
+/* Gallery CSS */
+.gallery-navbar:hover{
+cursor: pointer;
 
+}
 
 
 
