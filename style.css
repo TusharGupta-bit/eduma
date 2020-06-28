@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
@@ -6,6 +13,9 @@
   list-style: none;
   text-decoration: none;
   
+}
+.logo-name{
+    font-family: 'Roboto Slab', serif;
 }
 nav{
   /* background: #0082e6; */
@@ -35,9 +45,9 @@ nav ul li a{
   /* text-transform: uppercase; */
   font-family: 'Poppins', sans-serif;
 }
-.nav-hover:hover{
-    color: #edac10;
+ .nav-hover:hover{
   text-decoration: underline #edac10;
+  color: #edac10;
   transition: .5s;
 }
 .checkbtn{
@@ -196,6 +206,7 @@ nav ul li a{
     top: 70%;
     left: 3%;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 
@@ -314,10 +325,10 @@ margin: 5% 20%;
 
 @media (max-width: 952px){
     label.logo{
-        font-size: 27px;
-        font-size: 21px;
-        margin-left: -12px;
-        padding-left: 25px;
+      font-size: 27px;
+      font-size: 21px;
+      margin-left: -12px;
+      padding-left: 25px;
     }
     nav ul li a{
       font-size: 16px;
@@ -348,11 +359,11 @@ margin: 5% 20%;
       font-size: 20px;
     }
     .nav-hover:hover{
-        background: none;
-        color:#edac10;
-        text-decoration: underline #edac10;
-      }
-          #check:checked ~ ul{
+      background: none;
+      color:#edac10;
+      text-decoration: underline #edac10;
+    }
+    #check:checked ~ ul{
       left: 0;
     }
     #fas {
@@ -427,7 +438,7 @@ margin: 5% 20%;
 
 /* CONTACT FORM CSS */
 .background-contact-form{
-    background:  rgba(0, 0, 0, 0.5) url(bg-contact-form.jpg);
+    background:  rgba(0, 0, 0, 0.1) url(bg-contact-form.jpg);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
@@ -435,10 +446,10 @@ margin: 5% 20%;
     object-fit: cover;
 }
 .contact-heading{
-    font-family: 'Roboto Slab', serif;
+ font-family: 'Roboto Slab', serif;
     padding-top: 120px;
     padding-bottom: 50px;
-    font-size: 35px;
+    font-size: 35PX;
 }
 .contact-form-heading{
     font-family: 'Roboto Slab', serif;
@@ -480,8 +491,9 @@ margin: 5% 20%;
 } 
 .message-heading{
     font-family: 'Roboto Slab', serif;
-  font-size:30px;
+    font-size: 30px;
 }
+
 .About-Card-Heading:hover{
     color: #F4B80A;
     cursor: pointer;
@@ -491,9 +503,11 @@ margin: 5% 20%;
 cursor: pointer;
 
 }
-/*............... Navbar color  change on scroll home pages........ */
 
-.nav-bar{
+
+/*............... Navbar color  change on scroll home page........ */
+
+/* .nav-bar{
     background: transparent !important;
     transition: all 0.5s ease-out;
   }
@@ -512,37 +526,48 @@ cursor: pointer;
 }
 .logo-name.scrolled{
     color: black !important;
-}
-.logo-name{
-    font-family: 'Roboto Slab', serif;
-}
-
-/*............... Navbar color  change on scroll all pages except index.hmtl........ */
-
-
-.nav-bar-others{
+} */
+.nav-bar{
     background: transparent !important;
     transition: all 0.5s ease-out;
-  }
-  .nav-bar-others.scrolled{
-  background:white !important;
-  transition: all 0.5s ease-out;
-  }
-.hamburger-others{
-    color: white !important;
-  }
-  .hamburger-others.scrolled{
-  color: #000000 !important;
-  }
-.logo-name-others{
+}
+.nav-bar.scrolled{
+    background:white !important;
+    transition: all 0.5s ease-out;
+    }
+.hamburger-landscape{
     color: white !important;
 }
-.logo-name-others.scrolled{
+.hamburger.scrolled{
     color: black !important;
 }
-.logo-name-others{
-    font-family: 'Roboto Slab', serif;
+.logo-name{
+    color: white !important;
 }
+.logo-name.scrolled{
+    color: black !important;
+}
+.nav-items{
+    color: white !important;
+}
+.nav-items.scrolled{
+    color: black !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -610,19 +635,5 @@ cursor: pointer;
         padding-bottom: 50px;
         font-size: 35px;
     }
-    .nav-bar.scrolled{
-        background:white !important;
-        transition: all 0.5s ease-out;
-        height: 22%;
-    }
-    .nav-bar-others.scrolled{
-        background:white !important;
-        height: 22%;
-    }
-        .nav-hover{
-            color: white !important;
-        }
-        .nav-hover.scrolled{
-            color: black !important;
-        }
+    
 }
