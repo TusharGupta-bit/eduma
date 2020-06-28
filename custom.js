@@ -133,5 +133,20 @@ function About() {
  
     add.classList.add("active")
  }
+// Navbar color change function
+
+
+    $(window).scroll(function(){
+    $('.nav-bar').toggleClass('scrolled', $(this).scrollTop() > 200);
+    $('.hamburger').toggleClass('scrolled', $(this).scrollTop() > 200);
+    $('.logo-name').toggleClass('scrolled', $(this).scrollTop() > 200);
+    $('.nav-hover').toggleClass('scrolled', $(this).scrollTop() > 200);
+    });
+    $(window).scroll(function(){
+    $('.nav-bar-others').toggleClass('scrolled', $(this).scrollTop() > 70);
+    $('.hamburger-others').toggleClass('scrolled', $(this).scrollTop() > 70);
+    $('.logo-name-others').toggleClass('scrolled', $(this).scrollTop() > 60);
+
+    });
 
 
