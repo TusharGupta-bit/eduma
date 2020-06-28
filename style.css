@@ -375,6 +375,11 @@ margin: 5% 20%;
         margin-top: 10%;
         
        }
+       @keyframes name {
+
+        from { opacity:1;margin-top: 0px ;  transition:all 2s;}
+        to{opacity: 0;margin-top: 10px; transition:all 2s;}
+       }
     
        .animatedarrow {
            /* border: 2px solid yellow; */
@@ -392,7 +397,7 @@ margin: 5% 20%;
         height: 40px;
         border-radius: 50%;
         background: transparent;
-        border: 2px solid grey;
+        border: 0px solid grey;
         position: relative;
         /* bottom: 19%; */
         /* margin-bottom: -5%; */
@@ -490,9 +495,11 @@ cursor: pointer;
 
 .nav-bar{
     background: transparent !important;
+    transition: all 0.5s ease-out;
   }
   .nav-bar.scrolled{
   background:white !important;
+  transition: all 0.5s ease-out;
   }
 .hamburger{
     color: white !important;
@@ -515,9 +522,11 @@ cursor: pointer;
 
 .nav-bar-others{
     background: transparent !important;
+    transition: all 0.5s ease-out;
   }
   .nav-bar-others.scrolled{
   background:white !important;
+  transition: all 0.5s ease-out;
   }
 .hamburger-others{
     color: white !important;
@@ -563,6 +572,7 @@ cursor: pointer;
       }
       label.logo{
         line-height: 65px;
+        margin-top: -12px;
         padding: 1px 241px;
       }
     .text-area1{
@@ -594,6 +604,9 @@ cursor: pointer;
     .background-contact-form{
         height: 80vh;
     }
+    .animatedarrow{
+        display: none;
+    }
     .contact-heading{
         font-family: 'Roboto Slab', serif;
         padding-top: 165px;
@@ -602,11 +615,12 @@ cursor: pointer;
     }
     .nav-bar.scrolled{
         background:white !important;
-        height: 33%;
+        transition: all 0.5s ease-out;
+        height: 22%;
     }
     .nav-bar-others.scrolled{
         background:white !important;
-        height: 33%;
+        height: 22%;
     }
         .nav-hover{
             color: white !important;
