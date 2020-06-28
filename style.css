@@ -499,10 +499,24 @@ margin: 5% 20%;
     cursor: pointer;
     }
 /* Gallery CSS */
-.gallery-navbar:hover{
+#navlink1:hover{
 cursor: pointer;
-
+text-decoration: underline #edac10;
 }
+#navlink2:hover{
+cursor: pointer;
+text-decoration: underline #edac10;
+}
+#navlink3:hover{
+cursor: pointer;
+text-decoration: underline #edac10;
+}
+#navlink4:hover{
+cursor: pointer;
+text-decoration: underline #edac10;
+}
+
+
 
 
 /*............... Navbar color  change on scroll home page........ */
