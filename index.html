@@ -3,7 +3,7 @@
     
     <head>
         <meta charset="utf-8">
-        <title>Responsive Navbar</title>
+        <title>Eduma|Best Education Theme</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -16,19 +16,19 @@
 <body>
 
     <section class="background">
-        <nav>
+        <nav class="nav-bar position-fixed">
             <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
+            <label for="check" class="checkbtn ">
+                <i class="fas fa-bars hamburger"></i>
             </label>
-            <label class="logo"><img src="images/logo.png" alt=""></label>
+            <label class="logo" id="logo"><img src="images/logo.png" alt=""> <span class="text-light logo-name">EDUMA</span></label>
             <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="test.html">Test</a></li>
-                <li><a href="notes.html">Notes</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a class="nav-hover " href="#">Home</a></li>
+                <li><a class="nav-hover " href="about.html">About</a></li>
+                <li><a class="nav-hover " href="test.html">Test</a></li>
+                <li><a class="nav-hover " href="notes.html">Notes</a></li>
+                <li><a class="nav-hover " href="gallery.html">Gallery</a></li>
+                <li><a class="nav-hover " href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
         <div class="wrapper1">
@@ -64,11 +64,16 @@
             </div>
         </div>
         <button class="btn-buy-now">Buy Now</button>
+        <div class="animatedarrow">
+            <div class="circle">
+                <a class="fa fa-angle-double-down" id="fas" href="#box-main"></a>
+            </div>
+        </div>
     </section>
     <section>
-        <div class="box-main">
-            <div class="box-sm">
-                <span><img src="images/logo-top-1.png" class="box-sm-img" alt=""></span>
+        <div  class="box-main">
+        <div  class="box-sm">
+                <span><img src="images/logo-top-1.png" class="box-sm-img" id="box-main" alt=""></span>
                 <span class="box-sm-heading">BEST INDUSTRY LEADERS<br>
                     <button class="view-more">View More <i class="fa fa-chevron-right"></i></button>
                 </span>
@@ -100,6 +105,7 @@
             <a class="btn-floating" href="#multi-item-example" data-slide="prev"><button type="button" class="btn btn-outline-warning"><i class="fas fa-chevron-left"></i></button></a>
             <a class="btn-floating" href="#multi-item-example" data-slide="next"><button type="button" class="btn btn-outline-warning"><i
                 class="fas fa-chevron-right"></i></button></a>
+                <button type="button" class="btn btn-dark float-right" onclick="topFunction()" id="myBtn"><i class="fas fa-chevron-up"></i></button>
         </div>
         <!--/.Controls-->
 
@@ -292,7 +298,7 @@
 <section class="text-center my-5">
 
     <!-- Section heading -->
-    <h2 class="h1-responsive font-weight-bold my-5">What People Say</h2>
+    <h5 class="h5-responsive font-weight-bold my-5 message-heading">WHAT PEOPLE SAY</h5>
   
     <div class="wrapper-carousel-fix">
       <!-- Carousel Wrapper -->
@@ -395,32 +401,49 @@
   </section>
   <!-- Section: Testimonials -->
 <!-- Footer Section -->
-<section class="bg-dark">
+<section class="Footer">
 <div >
-    <img src="images/logo.png" class="mt-5 ml-4" alt="">
+    <img src="images/logo-footer.png" class="mt-5 ml-4" alt="">
     <div class="text-light">
         <i class="fa fa-phone mx-4 mt-5 " aria-hidden="true" ></i>
-        <span class="phone-no">987654321</span>
+        <span class="footer-heading">987654321</span>
     </div>
     <div class="text-light">
         <i class="fa fa-envelope mx-4 mt-3" aria-hidden="true" ></i>
-        <span class="phone-no">987654321</span>
+        <span class="footer-heading">artechdevelopers@gmail.com</span>
     </div>
+    <h6 class="text-light mx-4 mt-3 footer-main-heading">COMPANY</h6>
+    <div class="footer-heading mx-4">About us</div>
+    <div class="footer-heading mx-4">Blog</div>
+    <div class="footer-heading mx-4">Contact</div>
+    <div class="footer-heading mx-4">Make a Test</div>
+    <h6 class="text-light mx-4 mt-3 footer-main-heading">LINKS</h6>
+    <div class="footer-heading mx-4">About us</div>
+    <div class="footer-heading mx-4">Blog</div>
+    <div class="footer-heading mx-4">Contact</div>
+    <div class="footer-heading mx-4">Make a Test</div>
+    <h6 class="text-light mx-4 mt-3 footer-main-heading">SUPPORT</h6>
+    <div class="footer-heading mx-4">About us</div>
+    <div class="footer-heading mx-4">Blog</div>
+    <div class="footer-heading mx-4">Contact</div>
+    <div class="footer-heading mx-4">Make a Test</div>
 </div>
 <p class="text-light text-center watermark mt-4">EDUCATION THEME MADE BY ARTECH DEVELOPERS.</p>
 </section>
+<img src="background-2.jpg" class="img-fluid footer-img" alt="Responsive image">
 
 <!-- JAVASCRIPT SECTION -->
-    <script src="custom.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+crossorigin="anonymous"></script>
+<script src="custom.js"></script>
+ 
 
 </body>
 
