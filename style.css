@@ -319,10 +319,10 @@ margin: 5% 20%;
     font-size: 25px;
     margin-bottom: 0px;
 }
-
-
-
-
+.hover-footer:hover{
+    color: #edac10;
+    cursor: pointer;
+}
 
   @media (max-width: 420px){
     .checkbtn{
@@ -641,4 +641,64 @@ text-decoration: underline #edac10;
     color: black !important;
 }
     
+}
+
+/* <..................For computers & Laptops........................> */
+
+@media (min-width: 831px){
+    .logo-name{
+        font-size: 30px;
+        padding-top: 2px;
+    }
+    .logo{
+        line-height: 10px;
+    }
+    .background{
+        background:  rgba(0, 0, 0, 0.2) url(bg-for-pc.jpg);
+        background-blend-mode: darken;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        object-fit: cover;
+      }
+    .nav-items{
+        color: white !important;
+    }
+    .nav-items.scrolled{
+        color: black !important;
+    }
+.animatedarrow{
+    display: none;
+} 
+.contact-heading{
+    font-family: 'Roboto Slab', serif;
+    padding-top: 205px;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+.contact-heading::after {
+
+    content:'';
+    width: 4px;
+    color: #ffb606;
+    position:absolute;
+    height:65px;
+    left: 27px;
+    z-index: 10000;
+    background: #ffb606;
+    /* margin: 1% 0%; */
+
+}
+.gallery-nav-div{
+    text-align: center;
+}
+.f-elements{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-top-margin{
+    margin-top: 48px;
+}
+
+
 }
