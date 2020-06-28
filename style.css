@@ -616,11 +616,11 @@ cursor: pointer;
     .nav-bar.scrolled{
         background:white !important;
         transition: all 0.5s ease-out;
-        height: 22%;
+        height: 28%;
     }
     .nav-bar-others.scrolled{
         background:white !important;
-        height: 22%;
+        height: 28%;
     }
         .nav-hover{
             color: white !important;
