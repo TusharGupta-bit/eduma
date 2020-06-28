@@ -546,11 +546,13 @@ cursor: pointer;
 
 
 
+/* <>...........MEDIA QUERIES FOR PHONE LANDSCAPE MODE...............<> */
+
 @media only screen and (min-width:420px) and (max-width:830px){
     nav ul{
-        float: right;
-        margin-right: 60px;
-      }
+        margin-right: 5px;
+        margin-top: 25px;
+    }
       nav ul li{
         display: inline-block;
         line-height: 0px;
@@ -559,8 +561,8 @@ cursor: pointer;
       nav ul li a{
         color: #f2f2f2;
         font-weight: 500;
-        font-size: 20px;
-        padding: 7px 10px;
+        font-size: 14px;
+        padding: 7px 4px;
         border-radius: 3px;
         /* text-transform: uppercase; */
         font-family: 'Poppins', sans-serif;
@@ -569,11 +571,6 @@ cursor: pointer;
         background: none;
         color:#edac10;
         text-decoration: underline #edac10;
-      }
-      label.logo{
-        line-height: 65px;
-        margin-top: -12px;
-        padding: 1px 241px;
       }
     .text-area1{
         font-size: 15px;
@@ -601,11 +598,11 @@ cursor: pointer;
     .background{
         height: 125vh;
     }
-    .background-contact-form{
-        height: 80vh;
-    }
     .animatedarrow{
         display: none;
+    }
+    .background-contact-form{
+        height: 80vh;
     }
     .contact-heading{
         font-family: 'Roboto Slab', serif;
@@ -616,11 +613,11 @@ cursor: pointer;
     .nav-bar.scrolled{
         background:white !important;
         transition: all 0.5s ease-out;
-        height: 28%;
+        height: 22%;
     }
     .nav-bar-others.scrolled{
         background:white !important;
-        height: 28%;
+        height: 22%;
     }
         .nav-hover{
             color: white !important;
