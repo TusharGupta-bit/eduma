@@ -35,8 +35,8 @@ nav ul li a{
   /* text-transform: uppercase; */
   font-family: 'Poppins', sans-serif;
 }
-a.active,a:hover{
-    color: white;
+.nav-hover:hover{
+    color: #edac10;
   text-decoration: underline #edac10;
   transition: .5s;
 }
@@ -71,7 +71,7 @@ a.active,a:hover{
 }
 .text-area{
     font-size: 25px;
-    font-family: sans-serif;
+    font-family: 'Roboto Slab', serif;
     text-transform: uppercase;
     font-weight: bold;
     color: white;
@@ -125,7 +125,7 @@ a.active,a:hover{
 }
 .text-area1{
     font-size: 17px;
-    font-family: sans-serif;
+    font-family: 'Roboto Slab', serif;
     text-transform: uppercase;
     font-weight: bold;
     color: white;
@@ -188,8 +188,8 @@ a.active,a:hover{
     }
 }
 .btn-buy-now{
-    padding: 12px 25px;
-    font-size: 17px;
+    padding: 10px 30px;
+    font-size: 16px;
     background-color: #edac10;
     border: 0;
     position: absolute;
@@ -293,9 +293,16 @@ margin: 5% 20%;
 }
 
 /* Footer section */
+.Footer{
+    background-color: black;
+}
 
-.phone-no{
-    font-size: 20px;
+.footer-heading{
+    color: grey;
+    font-size: 16px;
+}
+.footer-main-heading{
+    font-family: 'Roboto Slab', serif;
 }
 .watermark{
     font-size: 25px;
@@ -304,10 +311,13 @@ margin: 5% 20%;
 
 
 
+
 @media (max-width: 952px){
     label.logo{
-      font-size: 27px;
-      padding-left: 25px;
+        font-size: 27px;
+        font-size: 21px;
+        margin-left: -12px;
+        padding-left: 25px;
     }
     nav ul li a{
       font-size: 16px;
@@ -316,7 +326,7 @@ margin: 5% 20%;
   @media (max-width: 420px){
     .checkbtn{
       display: block;
-      margin-right: 40px;
+      margin-right: 20px;
     }
     ul{
       position: fixed;
@@ -331,19 +341,66 @@ margin: 5% 20%;
     }
     nav ul li{
       display: block;
-      margin: 50px 0;
-      line-height: 30px;
+      margin: 30px 0;
+      line-height: 35px;
     }
     nav ul li a{
       font-size: 20px;
     }
-    a:hover , a.active{
-      background: none;
-      color: white;
-    }
-    #check:checked ~ ul{
+    .nav-hover:hover{
+        background: none;
+        color:#edac10;
+        text-decoration: underline #edac10;
+      }
+          #check:checked ~ ul{
       left: 0;
     }
+    #fas {
+
+        animation-name: name;
+        animation-duration: 2s ;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+        text-decoration: none;
+        /* border: 2px solid yellow; */
+        color:#D6D0CE;
+        /* position:absolute; */
+        font-weight: bold;
+        font-size: 30px;
+        /* border: 2px yellowgreen solid; */
+        /* margin: auto; */
+    
+        text-align: center;
+        z-index: 10000;
+        margin-top: 10%;
+        
+       }
+    
+       .animatedarrow {
+           /* border: 2px solid yellow; */
+           width: 100vw;
+           /* background-color: yellow; */
+           z-index: 10000;
+           position:absolute;
+           bottom: 3%;
+           height: 8%;
+    
+       }
+    
+       .circle {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: transparent;
+        border: 2px solid grey;
+        position: relative;
+        /* bottom: 19%; */
+        /* margin-bottom: -5%; */
+        text-align: center;
+        left: 45%;
+        margin-top: -1%;
+       }
+    /* ANIMATED ARROW AT  BOTTOM */
   }
 
   @media (min-width:320px){
@@ -374,7 +431,7 @@ margin: 5% 20%;
 }
 .contact-heading{
     font-family: 'Roboto Slab', serif;
-    padding-top: 50px;
+    padding-top: 120px;
     padding-bottom: 50px;
     font-size: 35px;
 }
@@ -391,7 +448,7 @@ margin: 5% 20%;
     left: 27px;
     z-index: 10000;
     background: #ffb606;
-    margin: 1% 0%;
+    /* margin: 1% 0%; */
 
 }
 .social-icon { 
@@ -429,6 +486,54 @@ margin: 5% 20%;
 cursor: pointer;
 
 }
+/*............... Navbar color  change on scroll home pages........ */
+
+.nav-bar{
+    background: transparent !important;
+  }
+  .nav-bar.scrolled{
+  background:white !important;
+  }
+.hamburger{
+    color: white !important;
+  }
+  .hamburger.scrolled{
+  color: #000000 !important;
+  }
+.logo-name{
+    color: white !important;
+}
+.logo-name.scrolled{
+    color: black !important;
+}
+.logo-name{
+    font-family: 'Roboto Slab', serif;
+}
+
+/*............... Navbar color  change on scroll all pages except index.hmtl........ */
+
+
+.nav-bar-others{
+    background: transparent !important;
+  }
+  .nav-bar-others.scrolled{
+  background:white !important;
+  }
+.hamburger-others{
+    color: white !important;
+  }
+  .hamburger-others.scrolled{
+  color: #000000 !important;
+  }
+.logo-name-others{
+    color: white !important;
+}
+.logo-name-others.scrolled{
+    color: black !important;
+}
+.logo-name-others{
+    font-family: 'Roboto Slab', serif;
+}
 
 
 
@@ -450,6 +555,11 @@ cursor: pointer;
         border-radius: 3px;
         /* text-transform: uppercase; */
         font-family: 'Poppins', sans-serif;
+      }
+      .nav-hover:hover{
+        background: none;
+        color:#edac10;
+        text-decoration: underline #edac10;
       }
       label.logo{
         line-height: 65px;
@@ -486,8 +596,22 @@ cursor: pointer;
     }
     .contact-heading{
         font-family: 'Roboto Slab', serif;
-        padding-top: 70px;
+        padding-top: 165px;
         padding-bottom: 50px;
         font-size: 35px;
     }
+    .nav-bar.scrolled{
+        background:white !important;
+        height: 33%;
+    }
+    .nav-bar-others.scrolled{
+        background:white !important;
+        height: 33%;
+    }
+        .nav-hover{
+            color: white !important;
+        }
+        .nav-hover.scrolled{
+            color: black !important;
+        }
 }
