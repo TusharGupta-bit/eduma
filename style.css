@@ -45,7 +45,7 @@ nav ul li a{
   /* text-transform: uppercase; */
   font-family: 'Poppins', sans-serif;
 }
- .nav-hover:hover{
+ .nav-items:hover{
   text-decoration: underline #edac10;
   color: #edac10;
   transition: .5s;
@@ -358,7 +358,7 @@ margin: 5% 20%;
     nav ul li a{
       font-size: 20px;
     }
-    .nav-hover:hover{
+    .nav-items:hover{
       background: none;
       color:#edac10;
       text-decoration: underline #edac10;
@@ -547,12 +547,7 @@ cursor: pointer;
 .logo-name.scrolled{
     color: black !important;
 }
-.nav-items{
-    color: white !important;
-}
-.nav-items.scrolled{
-    color: black !important;
-}
+
 
 
 
@@ -592,7 +587,7 @@ cursor: pointer;
         /* text-transform: uppercase; */
         font-family: 'Poppins', sans-serif;
       }
-      .nav-hover:hover{
+      .nav-items:hover{
         background: none;
         color:#edac10;
         text-decoration: underline #edac10;
@@ -635,5 +630,11 @@ cursor: pointer;
         padding-bottom: 50px;
         font-size: 35px;
     }
+  .nav-items{
+    color: white !important;
+}
+.nav-items.scrolled{
+    color: black !important;
+}
     
 }
