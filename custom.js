@@ -136,17 +136,11 @@ function About() {
 // Navbar color change function
 
 
-    $(window).scroll(function(){
-    $('.nav-bar').toggleClass('scrolled', $(this).scrollTop() > 200);
-    $('.hamburger').toggleClass('scrolled', $(this).scrollTop() > 200);
-    $('.logo-name').toggleClass('scrolled', $(this).scrollTop() > 200);
+     $(window).scroll(function(){
+    $('.nav-bar').toggleClass('scrolled', $(this).scrollTop() > 20);
+    $('.hamburger').toggleClass('scrolled', $(this).scrollTop() > 20);
+    $('.logo-name').toggleClass('scrolled', $(this).scrollTop() > 20);
+    $('.nav-items').toggleClass('scrolled', $(this).scrollTop() > 20);
    });
-   $(window).scroll(function(){
-      $('.hamburger-others').toggleClass('scrolled', $(this).scrollTop() > 70);
-      $('.logo-name-others').toggleClass('scrolled', $(this).scrollTop() > 60);
-      $('.nav-bar-others').toggleClass('scrolled', $(this).scrollTop() > 70);
-      $('.nav-hover').toggleClass('scrolled', $(this).scrollTop() > 70);
-
-    });
 
 
