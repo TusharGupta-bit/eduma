@@ -9,29 +9,36 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
     <section class="background-contact-form">
-        <nav>
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
-            </label>
-            <label class="logo"><img src="images/logo.png" alt=""></label>
+      <nav class="nav-bar-others position-fixed">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn ">
+            <i class="fas fa-bars hamburger-others"></i>
+        </label>
+            <label class="logo" id="logo"><img src="images/logo.png" alt=""> <span class="text-light logo-name">EDUMA</span></label>
             <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="test.html">Test</a></li>
-                <li><a href="notes.html">Notes</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a class="nav-hover" href="index.html">Home</a></li>
+                <li><a class="nav-hover" href="about.html">About</a></li>
+                <li><a class="nav-hover" href="test.html">Test</a></li>
+                <li><a class="nav-hover" href="notes.html">Notes</a></li>
+                <li><a class="nav-hover" href="gallery.html">Gallery</a></li>
+                <li><a class="nav-hover" href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
         <h1 class="text-light ml-5 contact-heading">ABOUT</h1>
     </section>
+    <div class="page-link">
+      <span><a href="index.html" class="text-dark"><small>Home</small></a></span>
+      <span><small><i class="fas fa-chevron-right ml-3 text-dark"></i></small></span>
+
+      <span><a href="about.html" class="text-dark ml-3"><small>About</small></a></span>
+
+  </div>
     <div id="carouselExampleFade" class="carousel slide carousel-fade mt-5" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -87,21 +94,38 @@
         <img src="images/course-16.jpg" class="card-img-top" alt="...">
       </div>
       <button type="button" class="btn btn-outline-warning my-5 mx-5"><a href="" class="text-dark">View More</a></button>
-          <!-- Footer Section -->
-<section class="bg-dark">
-    <div >
-        <img src="images/logo.png" class="mt-5 ml-4" alt="">
-        <div class="text-light">
-            <i class="fa fa-phone mx-4 mt-5 " aria-hidden="true" ></i>
-            <span class="phone-no">987654321</span>
-        </div>
-        <div class="text-light">
-            <i class="fa fa-envelope mx-4 mt-3" aria-hidden="true" ></i>
-            <span class="phone-no">987654321</span>
-        </div>
-    </div>
-    <p class="text-light text-center watermark mt-4">EDUCATION THEME MADE BY ARTECH DEVELOPERS.</p>
-    </section>
+ <!-- Footer Section -->
+<section class="Footer">
+  <div >
+      <img src="images/logo-footer.png" class="mt-5 ml-4" alt="">
+      <div class="text-light">
+          <i class="fa fa-phone mx-4 mt-5 " aria-hidden="true" ></i>
+          <span class="footer-heading">987654321</span>
+      </div>
+      <div class="text-light">
+          <i class="fa fa-envelope mx-4 mt-3" aria-hidden="true" ></i>
+          <span class="footer-heading">artechdevelopers@gmail.com</span>
+      </div>
+      <h6 class="text-light mx-4 mt-3 footer-main-heading">COMPANY</h6>
+      <div class="footer-heading mx-4">About us</div>
+      <div class="footer-heading mx-4">Blog</div>
+      <div class="footer-heading mx-4">Contact</div>
+      <div class="footer-heading mx-4">Make a Test</div>
+      <h6 class="text-light mx-4 mt-3 footer-main-heading">LINKS</h6>
+      <div class="footer-heading mx-4">About us</div>
+      <div class="footer-heading mx-4">Blog</div>
+      <div class="footer-heading mx-4">Contact</div>
+      <div class="footer-heading mx-4">Make a Test</div>
+      <h6 class="text-light mx-4 mt-3 footer-main-heading">SUPPORT</h6>
+      <div class="footer-heading mx-4">About us</div>
+      <div class="footer-heading mx-4">Blog</div>
+      <div class="footer-heading mx-4">Contact</div>
+      <div class="footer-heading mx-4">Make a Test</div>
+  </div>
+  <p class="text-light text-center watermark mt-4">EDUCATION THEME MADE BY ARTECH DEVELOPERS.</p>
+  </section>
+  <img src="background-2.jpg" class="img-fluid footer-img" alt="Responsive image">
+  
 
     <!-- JAVASCRIPT SECTION -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -113,6 +137,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+        <script src="custom.js"></script>
 
 </body>
 
