@@ -685,18 +685,20 @@ text-decoration: underline #edac10;
     .nav-items.scrolled{
         color: black !important;
     }
-    .wrapper{
-        top: 60%;    
+       .wrapper{
+        top: 56%;    
     }
     .text-area{
-        font-size: 60px;
+        font-size: 50px;
+        letter-spacing: 10px;
     }
    
     .wrapper1{
-        top: 65%;    
+        top: 60%;    
     }
     .text-area1{
         font-size: 30px;
+        letter-spacing: 4px;
     }
     .btn-buy-now{
         padding: 10px 30px;
@@ -704,12 +706,13 @@ text-decoration: underline #edac10;
         background-color: #edac10;
         border: 0;
         position: absolute;
-        top:67%;
+        top:60%;
         left: 4.5%;
         cursor: pointer;
         text-transform: uppercase;
         transition: all 1s ease-in-out ;
     }
+    
     
   .home-box{
       display: flex;
