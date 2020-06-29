@@ -407,6 +407,12 @@ margin: 5% 20%;
         margin-top: -1%;
        }
     /* ANIMATED ARROW AT  BOTTOM */
+    .sec-M-B{
+        display: none;
+    }
+    .sec-pc-B{
+        display: none;
+    }
   }
 
   @media (min-width:320px){
@@ -640,6 +646,12 @@ text-decoration: underline #edac10;
 .nav-items.scrolled{
     color: black !important;
 }
+   .sec-M-B{
+        display: none;
+    }
+    .sec-pc-B{
+        display: none;
+    }
     
 }
 
@@ -667,6 +679,66 @@ text-decoration: underline #edac10;
     .nav-items.scrolled{
         color: black !important;
     }
+    .wrapper{
+        top: 60%;    
+    }
+    .text-area{
+        font-size: 60px;
+    }
+   
+    .wrapper1{
+        top: 65%;    
+    }
+    .text-area1{
+        font-size: 30px;
+    }
+    .btn-buy-now{
+        padding: 10px 30px;
+        font-size: 16px;
+        background-color: #edac10;
+        border: 0;
+        position: absolute;
+        top:67%;
+        left: 4.5%;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: all 1s ease-in-out ;
+    }
+    
+  .home-box{
+      display: flex;
+      margin-top: -230px;
+      margin-left: 3%;
+  }
+  .box-sm{
+      background: rgba(0, 0, 0, 0.6);
+  }
+  .box-sm-heading {
+    margin-left: 25px;
+    font-size: 25px;
+  }
+  .main-heading::after {
+    content: '';
+    width: 56px;
+    color: black;
+    position: absolute;
+    height: 3px;
+    left: 27px;
+    z-index: 10000;
+    background: black;
+    margin: 1% 0%;
+  }
+  .main-heading-2::after {
+    content: '';
+    width: 56px;
+    color: black;
+    position: absolute;
+    height: 3px;
+    left: 27px;
+    z-index: 10000;
+    background: black;
+    margin: 0% 0%;
+}
 .animatedarrow{
     display: none;
 } 
@@ -689,6 +761,9 @@ text-decoration: underline #edac10;
     /* margin: 1% 0%; */
 
 }
+.Read-More-Button{
+    margin-left: 50%;
+}
 .gallery-nav-div{
     text-align: center;
 }
@@ -699,6 +774,11 @@ text-decoration: underline #edac10;
 .footer-top-margin{
     margin-top: 48px;
 }
-
+.sec-M-A{
+    display: none;
+}
+.sec-pc-A{
+    display: none;
+}
 
 }
